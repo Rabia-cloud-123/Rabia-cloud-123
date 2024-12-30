@@ -1,1 +1,223 @@
-<p>hello rabia</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabia's Portfolio</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: #af574c;
+            color: white;
+            padding: 1.5rem 0;
+            text-align: center;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 0.5rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        .about, .skills, .projects {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            background: #f9f9f9;
+        }
+
+        .about h2, .skills h2, .projects h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .about p {
+            font-size: 1.1rem;
+            text-align: justify;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .skills ul li {
+            display: inline-block;
+            margin: 0.5rem 1rem;
+            padding: 0.5rem 1rem;
+            border: 1px solid #4CAF50;
+            border-radius: 5px;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .projects .project {
+            margin: 1rem 0;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+
+        .projects .project img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-right: 1rem;
+        }
+
+        .projects .project h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+            border-radius: 10px 10px 0 0;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rabia's Portfolio</h1>
+        <p>Software Engineering Student | Graphic Designer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            Hi, I'm Rabia, a passionate Software Engineering student currently pursuing my degree. Along with my technical studies, I have completed a professional course in Graphic Designing. My goal is to blend creativity and technical skills to create impactful solutions.
+        </p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>Database Management</li>
+            <li>Graphic Designing</li>
+            <li>Adobe Photoshop</li>
+            <li>UI/UX Design</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGo_uiYjJy0w4_MGmko_Iy1VnVhtcsy2cGeQ&s" alt="Lost and Found App">
+            <div>
+                <h3>Lost and Found App</h3>
+                <p>A campus app for reporting and retrieving lost and found items. This project focuses on user-friendly design and smooth functionality.</p>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg6vW9rqvPEDdzLVF9bin3q_uASmPNa4_Xng&s" alt="Student Registration System">
+            <div>
+                <h3>Student Registration System</h3>
+                <p>An efficient web-based system for managing student registrations and grade reports, replacing legacy systems.</p>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="https://www.swic.edu/wp-content/uploads/2021/05/portfolio.png" alt="Portfolio Website">
+            <div>
+                <h3>Portfolio Website</h3>
+                <p>A responsive and visually appealing portfolio showcasing my skills and projects. Built using HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="https://media.gettyimages.com/id/479328526/video/rain.jpg?s=640x640&k=20&c=smLWqhi9MpNrAz92v1WqiRF1Eu5cABro7mvWOQUh2FQ=" alt="Hotel Reservation System">
+            <div>
+                <h3>Hotel Reservation System</h3>
+                <p>A feature-rich hotel reservation system with advanced database management, streamlining booking processes and enhancing user experience.</p>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIQGba_QBBjkwMTwVgV0wGyUf-uvn8m_1m4A&s" alt="Personal Expense Tracker">
+            <div>
+                <h3>Personal Expense Tracker</h3>
+                <p>A Java-based application that helps users track their daily expenses and provides analytics to manage their budget effectively.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Rabia's Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        // Add interactivity if needed
+        console.log("Welcome to Rabia's Portfolio!");
+    </script>
+</body>
+</html>
