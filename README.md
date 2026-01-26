@@ -75,7 +75,7 @@ A Java-based application that allows users to track BFS routing and help them to
 ## 📫 Contact
 
 - 📧 Email: rabia1234anum@gmail.com  
-- 💼 LinkedIn: https://linkedin.com/in/rabia ejaz 
+- 💼 LinkedIn: https://linkedin.com/in/rabia-ejaz-713a763a5
 - 🧑‍💻 GitHub: https://github.com/Rabia-cloud-123
 
 ---
