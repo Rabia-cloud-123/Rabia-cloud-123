@@ -1,6 +1,6 @@
 # Rabia Ejaz
 
-👩‍💻 Software Engineering Student | Web Developer | Graphic Designer  
+👩‍💻 Software Engineering Student | Web Developer | Graphic Designer  | Moblie App developer beginner
 
 ---
 
