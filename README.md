@@ -15,11 +15,14 @@ Alongside my academic journey, I have completed a professional course in Graphic
 ## 🛠️ Skills
 
 - HTML5  
-- CSS3  
+- CSS3
 - JavaScript  
 - Java  
 - SQL / Database Management  
-- Web Development  
+- Web Development
+- Moblie App development
+- Flutter
+- node.js and express.js
 - UI / UX Design  
 - Graphic Designing  
 - Adobe Photoshop  
